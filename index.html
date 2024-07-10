@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <button>menu</button>
+      <!-- <ul>
+        <li><a href="#">models</a></li>
+        <li><a href="#">data-sets</a></li>
+        <li><a href="#">papers</a></li>
+      </ul> -->
+
+      <img class="nav-img" src="./YFLogo4 (Full Black) - Copy.png" alt="" />
+
+      <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"><i class="fa fa-search">Submit</i></button>
+      </form>
+    </nav>
+    <main class="maincontent">
+      <h1>Generate Anime Styled Pictures for free</h1>
+      <script
+        type="module"
+        src="https://gradio.s3-us-west-2.amazonaws.com/4.37.2/gradio.js"
+      ></script>
+
+      <gradio-app src="https://kailashv-test-space.hf.space"></gradio-app>
+
+      <!-- <img
+        class="beauty"
+        src="https://uploaded.celebconfirmed.com/small_0_2d0f6a47_49d1_4ccc_ade0_5068d4e8f34a_ee73701e21.jpg"
+        alt="beauties loading"
+      /> -->
+    </main>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
